@@ -29,5 +29,5 @@ Nedan följer en lista över hårdvara som Inbyggd frihets medlemmar innehar.
      * **I9100 (Galaxy S2)** - Replicant 6.0
      * **I9300 (Galaxy S3)** - Replicant 6.0 (2G/3G)
      * **I9305 (Galaxy S3)** - Replicant 6.0 (Detta är 4G versionen, saknar totalt mobiltäckning med Replicant! Lineagestöd fanns t om ~2018)
-     * **Pinephone**
+     * [**Pinephone**](https://github.com/Eliot-Roxbergh/notes_pinephone)
      * **Librem 5**

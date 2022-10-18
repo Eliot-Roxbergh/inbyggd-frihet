@@ -9,7 +9,7 @@ Nedan följer en lista över hårdvara som Inbyggd frihets medlemmar innehar.
      * **Macbook2,1** - Libreboot
      * **T60** - Libreboot
      * **X60** - Libreboot
-     * **X200** - Libreboot
+     * **X200** - Libreboot (grub config: [grub_0.cfg](resources/grub_x200_2019.cfg))
      * **X220** - Coreboot
      * **X230** - Coreboot
      * **R400** - Coreboot

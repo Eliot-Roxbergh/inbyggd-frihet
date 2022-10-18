@@ -4,9 +4,9 @@ Sidan [h-node](https://h-node.org/home/index/en) för söker samla all fri hård
 Notera dock att det finns olika frihetsgrader och bara för att din dator/telefon inte behöver propritärmjukvara vet du inte vad hårdvaran själv gör (exempelvis en fingeravtrycksläsare). Således är en enhet som *faktiskt* kör fri kod, eller som t om är öppen hårdvara, friare och mer pålitlig än många av de som nämns här. Därav målet med inbyggd frihet, öppen firmware. Alltså, även om vi rekommenderar vissa enheter finns det fortfarande element som är stängda och utan alternativ idag. Telefoner gräver GSM nät, hårddiskar har okänt firmware, processorerna själva har odokumenterade funktioner och tillverkningsprocess, etc.
 
 ## Äldre enheter (2007-2012)
-Libreboot och Replicant enheter fortfarande konkurrenskraftiga i kategorin blobb- och [[IME|https://en.wikipedia.org/wiki/Intel_Management_Engine]]-fria. 
+Libreboot och Replicant enheter fortfarande konkurrenskraftiga i kategorin blobb- och [IME](https://en.wikipedia.org/wiki/Intel_Management_Engine)-fria. 
 
-Mer information om Replicant och Libreboot jobbas på under [våra guider](../guider). Dessa enheter funkar generellt bra men kräver lite jobb att installera ('flasha') om man inte [köper färdigt](https://tehnoetic.com).
+Mer information om Replicant och Libreboot jobbas på under [våra guider](guider.md). Dessa enheter funkar generellt bra men kräver lite jobb att installera ('flasha') om man inte [köper färdigt](https://tehnoetic.com).
 
 #### Dator - Laptop - Server
 [Libreboot](Libreboot.org) med enheter som X200 (Intel, Thinkpad) och KGPE-D16 (AMD, server).
@@ -89,8 +89,8 @@ Nitrokey <https://infosec-handbook.eu/blog/yubikey4c-nitrokeypro/>
 __________________________________________________________
 #### Kommentarer
 
-Nästan allt ARM-baserat kräver blobbar till grafikkretsen utom Vivante som kan använda [[etnaviv|https://github.com/etnaviv]].
-Undvik Raspberry pi som kräver ofri mjukvara för uppstart. Se [[FSF:s sida om enkortsdatorer|https://www.fsf.org/resources/hw/single-board-computers]].
+Nästan allt ARM-baserat kräver blobbar till grafikkretsen utom Vivante som kan använda [etnaviv](https://github.com/etnaviv).
+Undvik Raspberry pi som kräver ofri mjukvara för uppstart. Se [FSF:s sida om enkortsdatorer](https://www.fsf.org/resources/hw/single-board-computers).
 
 OLinuXino verkar ha de mest frihetliga produkterna, därefter Beaglebone. Banana Pi verkar okej också?
 Dessa produkter må ha fri hårdvarudokumentation men i slutändan använder de ett ARM-chip som kräver blobbar för grafiken.

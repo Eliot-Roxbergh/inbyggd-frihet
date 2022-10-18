@@ -1,4 +1,4 @@
-See även [rekommenderade system](../rekommenderat)
+See även [rekommenderade system](rekommenderat.md)
 
 ## Frihets- och integritetsproblem med mobiltelefoner
 

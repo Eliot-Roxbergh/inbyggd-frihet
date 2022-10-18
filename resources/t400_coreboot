@@ -1,4 +1,3 @@
-```
 #
 # Automatically generated file; DO NOT EDIT.
 # coreboot configuration
@@ -728,4 +727,3 @@ CONFIG_RELOCATABLE_MODULES=y
 CONFIG_C_ENVIRONMENT_BOOTBLOCK=y
 CONFIG_HAVE_ROMSTAGE=y
 CONFIG_HAVE_RAMSTAGE=y
-```

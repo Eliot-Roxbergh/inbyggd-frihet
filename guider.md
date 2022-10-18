@@ -141,7 +141,7 @@ Unlike Coreboot, this build process is fairly automated and does not present any
 BEFORE flashing laptops make sure EC version is up to date (yes it's proprietary). (Link for fun: <https://notabug.org/libreboot/libreboot/issues/731>.. __Sorry for broken link!__)
 
 ## T400 without blobs (Coreboot)
-Here's our config for coreboot, copy it here to this path [coreboot/.config](t400_coreboot/).
+Here's our config for coreboot, copy it here to this path [coreboot/.config](resources/t400_coreboot/).
 ( Below in the text we refer to it as ~/coreboot_config_t400_8mb )
 
     #!/bin/bash -e

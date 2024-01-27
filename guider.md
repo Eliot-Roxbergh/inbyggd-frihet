@@ -2,7 +2,7 @@ __Ursäkta, denna sida är på engelska!__
 
 No warranty provided. Here you will find some results from our meetings.
 
-To be clear, these guides are a few years old (2016-2019), and there is for instance a new libreboot version since then <https://libreboot.org/news/libreboot20210522.html>. Not a big deal, but something to investigate.
+To be clear, most of these guides are ancient and there are new Libreboot versions available etc. (see also Dasharo and Canoeboot).
 
 # Coreboot and Libreboot introduction
 
@@ -140,6 +140,9 @@ Unlike Coreboot, this build process is fairly automated and does not present any
 
 BEFORE flashing laptops make sure EC version is up to date (yes it's proprietary). (Link for fun: <https://notabug.org/libreboot/libreboot/issues/731>.. __Sorry for broken link!__)
 
+## R400 (2024)
+Libreboot R400 updated 2024 -> [guide](docs/R400.md)
+
 ## T400 without blobs (Coreboot)
 Here's our config for coreboot, copy it here to this path [coreboot/.config](resources/t400_coreboot/).
 ( Below in the text we refer to it as ~/coreboot_config_t400_8mb )
@@ -266,6 +269,15 @@ To be continued ...
 
 ## KGPE-D16 (Libreboot)
 
+Reading:
+<https://wiki.vikings.net/hardware:kgpe-d16>
+<https://www.coreboot.org/Board:asus/kgpe-d16>
+
+For KGPE-D16 it is recommended to use [Dasharo](https://docs.dasharo.com/variants/asus_kgpe_d16/overview/) for better RAM initialization (more reliable, should be able to run with up to 256GB). Also as KGPE-D16 was dropped from Coreboot (2019-10-20). Summarized here, e.g., <https://www.reddit.com/r/coreboot/comments/rp2l1o/coreboot_on_amd_server_kgped16_return_and_epyc/>.
+
+For single core performance, gaming, or lower power, KCMA-D8 is a better alternative board: <https://wiki.vikings.net/hardware:kcma-d8>
+
+
 ### Summary, using this free computer as a workstation
 
 Once you have flashed and found working memory for the system. It works rather well, no need to remove CMOS battery for instance (if no picture/boot, just disconnect PSU for a sec and restart).
@@ -285,7 +297,7 @@ Also Raptor Engineering was working on new free features (OpenBMC, IPMI, and The
   * Use 62xx-series CPUs, because Libreboot does not update (proprietary) microcode. However, this is up to you as you may then use 63xx for better performance (we have not tried updating though). (See [Libreboot](https://libreboot.org/docs/hardware/kgpe-d16.html))
   * Internal GPU works (for text mode only), note the hardware jumper (see motherboard manual)
   * North bridge (?) gets hot, use good ventilation
-  * A system with 2x 6276 CPUs draws between 200 and 400 watt, depending on the workload (this is a lot in idle!.
+  * A system with 2x 6276 CPUs draws between 200 and 400 watt, depending on the workload (this is a lot in idle! Roughly 30%+ more than proprietary BIOS [citation needed]). **NOTE: some powersaving requires tickless system (i.e. kernel setting ```nohz=on```) ([source](https://wiki.vikings.net/hardware:kgpe-d16#installation_notes))**
   * There are two ethernet ports and one IPMI (not used)
   * Hardware jumpers for GPU, ethernet etc.
   * Note: It is necessary to have a dedicated sound card and graphics card, _if_ those features are desired.

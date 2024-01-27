@@ -275,7 +275,7 @@ Reading:
 
 For KGPE-D16 it is recommended to use [Dasharo](https://docs.dasharo.com/variants/asus_kgpe_d16/overview/) for better RAM initialization (more reliable, should be able to run with up to 256GB). Also as KGPE-D16 was dropped from Coreboot (2019-10-20). Summarized here, e.g., <https://www.reddit.com/r/coreboot/comments/rp2l1o/coreboot_on_amd_server_kgped16_return_and_epyc/>.
 
-For single core performance, gaming, or lower power, KCMA-D8 is a better alternative board: <https://wiki.vikings.net/hardware:kcma-d8>
+For single core performance, gaming, or lower power consumption, KCMA-D8 is a better alternative board (if you're fine with half the amount of cores): <https://wiki.vikings.net/hardware:kcma-d8>
 
 
 ### Summary, using this free computer as a workstation
